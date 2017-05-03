@@ -249,23 +249,23 @@ void Sight_map::add_point(Tripoint p)
   }
   seen.push_back( p );
 }
+//
+//bool Sight_map::is_initialized()
+//{
+//  return initialized;
+//}
 
-bool Sight_map::is_initialized()
-{
-  return initialized;
-}
-
-bool Sight_map::can_see(Tripoint p)
-{
-  for (int i = 0; i < seen.size(); i++) {
-    if (seen[i] == p) {
-      return true;
-    } else if (seen[i] > p) {
-      return false; // Since it's sorted, we stop once we find one > p
-    }
-  }
-  return false; // Should only happen on an empty vector
-}
+//bool Sight_map::can_see(Tripoint p)
+//{
+//  for (int i = 0; i < seen.size(); i++) {
+//    if (seen[i] == p) {
+//      return true;
+//    } else if (seen[i] > p) {
+//      return false; // Since it's sorted, we stop once we find one > p
+//    }
+//  }
+//  return false; // Should only happen on an empty vector
+//}
 
 void Tile::set_terrain(Terrain* ter)
 {
@@ -2357,30 +2357,30 @@ void Map::process_fields()
 
 // range defaults to -1, meaning "infinite range."
 // force_rebuild defaults to false.
-void Map::build_sight_map(int range, bool force_rebuild)
-{
-  for (int x = 0; x < SUBMAP_SIZE * MAP_SIZE; x++) {
-    for (int y = 0; y < SUBMAP_SIZE * MAP_SIZE; y++) {
-      for (int z = 0; z < VERTICAL_MAP_SIZE * 2 + 1; z++) {
-        Tile* cur_tile = get_tile(x, y, z);
-        if (cur_tile) { // Safety check
-          if (force_rebuild || !cur_tile->sight_map.is_initialized()) {
-            build_tile_sight_map(x, y, z, range);
-          }
-        }
-      }
-    }
-  }
-}
-
-void Map::build_tile_sight_map(int tile_x, int tile_y, int tile_z, int range)
-{
-  Tile* cur_tile = get_tile(tile_x, tile_y, tile_z);
-  if (!cur_tile) {  // Safety check
-    debugmsg("Map::build_tile_sight_map(%d, %d, %d, %d) called!",
-             tile_x, tile_y, tile_z, range);
-    return;
-  }
+//void Map::build_sight_map(int range, bool force_rebuild)
+//{
+//  for (int x = 0; x < SUBMAP_SIZE * MAP_SIZE; x++) {
+//    for (int y = 0; y < SUBMAP_SIZE * MAP_SIZE; y++) {
+//      for (int z = 0; z < VERTICAL_MAP_SIZE * 2 + 1; z++) {
+//        Tile* cur_tile = get_tile(x, y, z);
+//        if (cur_tile) { // Safety check
+//          if (force_rebuild || !cur_tile->sight_map.is_initialized()) {
+//           build_tile_sight_map(x, y, z, range);
+//          }
+//        }
+//      }
+//    }
+//  }
+//}
+/*
+//void Map::build_tile_sight_map(int tile_x, int tile_y, int tile_z, int range)
+//{
+//  Tile* cur_tile = get_tile(tile_x, tile_y, tile_z);
+//  if (!cur_tile) {  // Safety check
+//    debugmsg("Map::build_tile_sight_map(%d, %d, %d, %d) called!",
+//             tile_x, tile_y, tile_z, range);
+//    return;
+//  }
 
 // range of -1 means "infinite range"
   if (range == -1) {
