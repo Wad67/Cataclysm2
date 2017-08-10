@@ -1,0 +1,700 @@
+# depslib dependency file v1.0
+1502368548 source:c:\users\wad\documents\github\cataclysm2\attack.cpp
+	"field.h"
+	"attack.h"
+	"rng.h"
+	"stringfunc.h"
+	"window.h"
+	"entity.h"
+	"item.h"
+	"globals.h"
+	"game.h"
+	<sstream>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\field.h
+	"enum.h"
+	"damage_set.h"
+	"enum.h"
+	"enum.h"
+	"glyph.h"
+	"terrain.h"
+	"geometry.h"
+	"explosion.h"
+	<string>
+	<vector>
+	<list>
+	<istream>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\enum.h
+	<string>
+	<vector>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\damage_set.h
+	"enum.h"
+
+1502368548 c:\users\wad\documents\github\cataclysm2\glyph.h
+	"color.h"
+	<istream>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\color.h
+	<string>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\terrain.h
+	"glyph.h"
+	"enum.h"
+	"dice.h"
+	<vector>
+	<map>
+	<list>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\dice.h
+	<istream>
+	<string>
+	<vector>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\geometry.h
+	<vector>
+	<string>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\explosion.h
+	"dice.h"
+	"geometry.h"
+	<istream>
+	<string>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\attack.h
+	"enum.h"
+	"dice.h"
+	"geometry.h"
+	"damage_set.h"
+	"field.h"
+	"skill.h"
+	<string>
+	<vector>
+	<istream>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\skill.h
+	<string>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\rng.h
+	<stdlib.h>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\stringfunc.h
+	"color.h"
+	<string>
+	<vector>
+	<istream>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\window.h
+	"glyph.h"
+	<vector>
+	<list>
+	"catacurse.h"
+	<curses.h>
+
+1502370222 c:\users\wad\documents\github\cataclysm2\catacurse.h
+	<windows.h>
+	<stdio.h>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\entity.h
+	"glyph.h"
+	"item.h"
+	"player_activity.h"
+	"geometry.h"
+	"enum.h"
+	"pathfind.h"
+	"attack.h"
+	"entity_ai.h"
+	"status_effect.h"
+	"map.h"
+	"trait.h"
+	<string>
+	<map>
+	<list>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\item.h
+	"item_type.h"
+	"enum.h"
+	"monster_type.h"
+	<string>
+	<vector>
+	<istream>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\item_type.h
+	"glyph.h"
+	"enum.h"
+	"dice.h"
+	"tool.h"
+	"status_effect.h"
+	"skill.h"
+	<string>
+	<istream>
+	<vector>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\tool.h
+	"dice.h"
+	"field.h"
+	"skill.h"
+	<string>
+	<istream>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\status_effect.h
+	<string>
+	<istream>
+	<vector>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\monster_type.h
+	"glyph.h"
+	"enum.h"
+	"attack.h"
+	"entity_ai.h"
+	"dice.h"
+	"var_string.h"
+	"sound.h"
+	<string>
+	<istream>
+	<vector>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\entity_ai.h
+	"geometry.h"
+	<string>
+	<istream>
+	<vector>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\var_string.h
+	<string>
+	<vector>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\sound.h
+
+1502368548 c:\users\wad\documents\github\cataclysm2\player_activity.h
+	<string>
+	<vector>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\pathfind.h
+	"geometry.h"
+	<vector>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\map.h
+	"window.h"
+	"terrain.h"
+	"world_terrain.h"
+	"mapgen.h"
+	"worldmap.h"
+	"item.h"
+	"enum.h"
+	"geometry.h"
+	"attack.h"
+	"pathfind.h"
+	"field.h"
+	<istream>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\world_terrain.h
+	"glyph.h"
+	"mapgen.h"
+	<string>
+	<istream>
+	<vector>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\mapgen.h
+	"terrain.h"
+	"item_type.h"
+	"geometry.h"
+	"dice.h"
+	"var_string.h"
+	<istream>
+	<vector>
+	<map>
+	<list>
+	<string>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\worldmap.h
+	"world_terrain.h"
+	"window.h"
+	"globals.h"
+	"worldmap.h"
+	"cuss.h"
+	"pathfind.h"
+	"monster_spawn.h"
+	<string>
+	<istream>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\globals.h
+	"datapool.h"
+	"terrain.h"
+	"world_terrain.h"
+	"mapgen.h"
+	"item_type.h"
+	"monster_type.h"
+	"keybind.h"
+	"biome.h"
+	"profession.h"
+	"mission.h"
+
+1502368548 c:\users\wad\documents\github\cataclysm2\datapool.h
+	"window.h"
+	"item_type.h"
+	"stringfunc.h"
+	"rng.h"
+	<string>
+	<istream>
+	<list>
+	<map>
+	<fstream>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\keybind.h
+	"geometry.h"
+	<map>
+	<string>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\biome.h
+	"world_terrain.h"
+	"monster_type.h"
+	"dice.h"
+	<istream>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\profession.h
+	"skill.h"
+	"mapgen.h"
+	<string>
+	<vector>
+	<istream>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\mission.h
+	"time.h"
+	"item_type.h"
+	<string>
+	<istream>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\time.h
+	<string>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\cuss.h
+	<string>
+	<vector>
+	<istream>
+	<map>
+	"window.h"
+	"geometry.h"
+
+1502368548 c:\users\wad\documents\github\cataclysm2\monster_spawn.h
+
+1502368548 c:\users\wad\documents\github\cataclysm2\trait.h
+	<string>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\game.h
+	"map.h"
+	"cuss.h"
+	"worldmap.h"
+	"monster.h"
+	"player.h"
+	"keybind.h"
+	"pathfind.h"
+	"time.h"
+	"sound.h"
+
+1502368548 c:\users\wad\documents\github\cataclysm2\monster.h
+	"monster_type.h"
+	"entity.h"
+	"glyph.h"
+	"geometry.h"
+	"enum.h"
+	<string>
+	<list>
+	<map>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\player.h
+	"entity.h"
+	"map.h"
+	"enum.h"
+	"player_activity.h"
+	"profession.h"
+	"mission.h"
+	<string>
+	<map>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\biome.cpp
+	"biome.h"
+	"globals.h"
+	"rng.h"
+	<sstream>
+
+1502370402 source:c:\users\wad\documents\github\cataclysm2\catacurse.cpp
+	"catacurse.h"
+	<cstdlib>
+	<fstream>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\color.cpp
+	"color.h"
+	"catacurse.h"
+	<curses.h>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\cuss.cpp
+	"cuss.h"
+	"stringfunc.h"
+	<sstream>
+	<fstream>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\cuss_editor.cpp
+	<fstream>
+	<sstream>
+	<unistd.h>
+	<iostream>
+	"cuss.h"
+	"files.h"
+	"stringfunc.h"
+
+1502368548 c:\users\wad\documents\github\cataclysm2\files.h
+	<vector>
+	<string>
+	<istream>
+
+1502369931 source:c:\users\wad\documents\github\cataclysm2\cusstest.cpp
+	"cuss.h"
+	"window.h"
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\damage_set.cpp
+	"damage_set.h"
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\dice.cpp
+	"dice.h"
+	"rng.h"
+	"window.h"
+	<sstream>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\entity.cpp
+	"entity.h"
+	"rng.h"
+	"game.h"
+	"geometry.h"
+	"map.h"
+	<sstream>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\entity_ai.cpp
+	"entity_ai.h"
+	"stringfunc.h"
+	"window.h"
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\enum.cpp
+	"enum.h"
+	"stringfunc.h"
+	"rng.h"
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\explosion.cpp
+	"explosion.h"
+	"window.h"
+	"stringfunc.h"
+	"entity.h"
+	"game.h"
+	"damage_set.h"
+	"attack.h"
+	"rng.h"
+	<sstream>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\field.cpp
+	"field.h"
+	"window.h"
+	"stringfunc.h"
+	"terrain.h"
+	"globals.h"
+	"rng.h"
+	"map.h"
+	"entity.h"
+	"game.h"
+	<sstream>
+
+1502370760 source:c:\users\wad\documents\github\cataclysm2\files.cpp
+	"files.h"
+	"stringfunc.h"
+	<sys/types.h>
+	<sys/stat.h>
+	<dirent.h>
+	<fstream>
+
+1502370914 source:c:\users\wad\documents\github\cataclysm2\game.cpp
+	"game.h"
+	"window.h"
+	"stringfunc.h"
+	"map.h"
+	"rng.h"
+	"pathfind.h"
+	"files.h"
+	"help.h"
+	<stdarg.h>
+	<math.h>
+	<sstream>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\help.h
+	<string>
+	"skill.h"
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\geometry.cpp
+	"geometry.h"
+	<vector>
+	<stdlib.h>
+	<math.h>
+	<sstream>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\globals.cpp
+	"field.h"
+	"globals.h"
+	"datapool.h"
+	"files.h"
+	"game.h"
+	"map.h"
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\glyph.cpp
+	"glyph.h"
+	"options.h"
+	"window.h"
+	<sstream>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\options.h
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\help.cpp
+	"help.h"
+	"window.h"
+	"cuss.h"
+	"files.h"
+	"stringfunc.h"
+	<sstream>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\item.cpp
+	"item.h"
+	"item_type.h"
+	"game.h"
+	"globals.h"
+	"cuss.h"
+	"entity.h"
+	"attack.h"
+	"files.h"
+	"rng.h"
+	<sstream>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\item_type.cpp
+	"item_type.h"
+	"stringfunc.h"
+	"window.h"
+	<sstream>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\keybind.cpp
+	"keybind.h"
+	"stringfunc.h"
+	"window.h"
+	"globals.h"
+	<fstream>
+	<vector>
+	<sstream>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\main.cpp
+	"globals.h"
+	"window.h"
+	"rng.h"
+	"game.h"
+	"files.h"
+	<ctime>
+	<stdio.h>
+	<getopt.h>
+	<unistd.h>
+	<string>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\map.cpp
+	"field.h"
+	"map.h"
+	"rng.h"
+	"globals.h"
+	"monster.h"
+	"game.h"
+	"attack.h"
+	"entity.h"
+	"enum.h"
+	"worldmap.h"
+	"files.h"
+	<fstream>
+	<sstream>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\mapgen.cpp
+	"mapgen.h"
+	"window.h"
+	"globals.h"
+	"stringfunc.h"
+	"rng.h"
+	<stdlib.h>
+	<sstream>
+	<fstream>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\mission.cpp
+	"mission.h"
+	"rng.h"
+	"game.h"
+	<sstream>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\monster.cpp
+	"monster.h"
+	"rng.h"
+	"game.h"
+	"player.h"
+	"monster_ability.h"
+	<sstream>
+
+1502368548 c:\users\wad\documents\github\cataclysm2\monster_ability.h
+	"var_string.h"
+	"dice.h"
+	"status_effect.h"
+	"enum.h"
+	<istream>
+	<string>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\monster_ability.cpp
+	"monster_ability.h"
+	"geometry.h"
+	"monster.h"
+	"game.h"
+	"globals.h"
+	"rng.h"
+	<sstream>
+	<map>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\monster_spawn.cpp
+	"monster_spawn.h"
+	"monster.h"
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\monster_type.cpp
+	"window.h"
+	"stringfunc.h"
+	"monster_type.h"
+	"globals.h"
+	"rng.h"
+	"monster_ability.h"
+	<sstream>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\newcharacter.cpp
+	"entity.h"
+	"player.h"
+	"cuss.h"
+	"trait.h"
+	"files.h"
+	"window.h"
+	<string>
+	<sstream>
+	<stdlib.h>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\pathfind.cpp
+	"pathfind.h"
+	"rng.h"
+	"window.h"
+	"map.h"
+	<math.h>
+	<algorithm>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\player.cpp
+	"player.h"
+	"cuss.h"
+	"game.h"
+	"files.h"
+	"rng.h"
+	"help.h"
+	<sstream>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\player_activity.cpp
+	"player_activity.h"
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\profession.cpp
+	"profession.h"
+	"stringfunc.h"
+	"window.h"
+	<string>
+	<istream>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\rng.cpp
+	"rng.h"
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\skill.cpp
+	"skill.h"
+	"stringfunc.h"
+	"window.h"
+	<string>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\status_effect.cpp
+	"status_effect.h"
+	"stringfunc.h"
+	"window.h"
+	"entity.h"
+	<sstream>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\stringfunc.cpp
+	<sstream>
+	"stringfunc.h"
+	"window.h"
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\terrain.cpp
+	"terrain.h"
+	"stringfunc.h"
+	"files.h"
+	"window.h"
+	"globals.h"
+	"mapgen.h"
+	<sstream>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\time.cpp
+	<sstream>
+	"time.h"
+	"stringfunc.h"
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\tool.cpp
+	"tool.h"
+	"stringfunc.h"
+	"window.h"
+	"enum.h"
+	"entity.h"
+	"player.h"
+	"field.h"
+	"game.h"
+	<sstream>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\trait.cpp
+	"trait.h"
+	"stringfunc.h"
+	<string>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\var_string.cpp
+	"var_string.h"
+	"stringfunc.h"
+	"rng.h"
+
+1502370594 source:c:\users\wad\documents\github\cataclysm2\window.cpp
+	<vector>
+	<string>
+	<list>
+	<cstring>
+	<sstream>
+	"window.h"
+	"cuss.h"
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\world_terrain.cpp
+	"world_terrain.h"
+	"stringfunc.h"
+	"window.h"
+	"globals.h"
+	"rng.h"
+	<sstream>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\worldmap.cpp
+	"worldmap.h"
+	"rng.h"
+	"map.h"
+	"files.h"
+	"stringfunc.h"
+	"game.h"
+	<fstream>
+	<sstream>
+
+1502368548 source:c:\users\wad\documents\github\cataclysm2\worldmap_generate.cpp
+	"worldmap.h"
+	"biome.h"
+	"rng.h"
+	"globals.h"
+	"window.h"
+	<math.h>
+	<sstream>
+

@@ -35,7 +35,8 @@ bool create_directory(std::string name)
   }
   return true;
 }
-
+// This is totally broken, I think it is related to depreciated functions
+/*
 bool remove_directory(std::string name)
 {
   if (!directory_exists(name)) {
@@ -58,7 +59,7 @@ bool remove_directory(std::string name)
 
     if (!d_name.empty() && d_name[0] != '.') {
 
-      if (entry->d_type == DT_DIR) {  // remove other directories recursively
+      if (entry->d_type == N) {  // remove other directories recursively
         if (!remove_directory(full_path)) {
           return_value = false;
         }
@@ -78,7 +79,7 @@ bool remove_directory(std::string name)
 
   return return_value;
 }
-
+*/
 bool file_exists(std::string name)
 {
   std::ifstream fin;

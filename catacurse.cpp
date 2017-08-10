@@ -2,9 +2,7 @@
 #include "catacurse.h"
 #include <cstdlib>
 #include <fstream>
-//***********************************
-//Globals                           *
-//***********************************
+
 
 WINDOW *mainwin;
 const WCHAR *szWindowClass = (L"CataCurseWindow");    //Class name :D
@@ -31,9 +29,7 @@ pairs *colorpairs;   //storage for pair'ed colored, should be dynamic, meh
 unsigned char *dcbits;  //the bits of the screen image, for direct access
 char szDirectory[MAX_PATH] = "";
 
-//***********************************
-//Non-curses, Window functions      *
-//***********************************
+
 
 //Registers, creates, and shows the Window!!
 bool WinCreate()
